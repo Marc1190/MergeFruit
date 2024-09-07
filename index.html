@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Fruit Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Merge Fruit Game</h1>
+    <p>Click on an empty cell to place the next fruit. Merge identical fruits to create bigger ones!</p>
+    <div id="game-container">
+        <div id="next-fruit-container">
+            <h3>Next Fruit:</h3>
+            <div id="next-fruit"></div>
+        </div>
+        <div id="game-area">
+            <div id="game-board"></div>
+            <button id="reset-btn">Restart Game</button>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <div id="legend">
+            <h2>Fruit Merging Guide</h2>
+            <div class="legend-item">
+                <div class="fruit-icon cherry"></div>
+                <span>+</span>
+                <div class="fruit-icon cherry"></div>
+                <span>=</span>
+                <div class="fruit-icon strawberry"></div>
+            </div>
+            <div class="legend-item">
+                <div class="fruit-icon strawberry"></div>
+                <span>+</span>
+                <div class="fruit-icon strawberry"></div>
+                <span>=</span>
+                <div class="fruit-icon grape"></div>
+            </div>
+            <div class="legend-item">
+                <div class="fruit-icon grape"></div>
+                <span>+</span>
+                <div class="fruit-icon grape"></div>
+                <span>=</span>
+                <div class="fruit-icon orange"></div>
+            </div>
+            <div class="legend-item">
+                <div class="fruit-icon orange"></div>
+                <span>+</span>
+                <div class="fruit-icon orange"></div>
+                <span>=</span>
+                <div class="fruit-icon apple"></div>
+            </div>
+            <div class="legend-item">
+                <div class="fruit-icon apple"></div>
+                <span>+</span>
+                <div class="fruit-icon apple"></div>
+                <span>=</span>
+                <div class="fruit-icon pear"></div>
+            </div>
+            <div class="legend-item">
+                <div class="fruit-icon pear"></div>
+                <span>+</span>
+                <div class="fruit-icon pear"></div>
+                <span>=</span>
+                <div class="fruit-icon pineapple"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
