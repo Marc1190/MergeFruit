@@ -13,8 +13,8 @@ Merge Fruit Game is a fun and interactive game where you merge identical fruits 
 To set up and run the game locally, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Marc1190/MergeFruit.git
+   cd MergeFruit
    ```
 
 2. Open the `index.html` file in your web browser.
