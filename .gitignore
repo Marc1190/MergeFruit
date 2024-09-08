@@ -1,0 +1,47 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Build output
+dist/
+build/
+
+# Package files
+package-lock.json
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Jest
+jest.config.js
+
+# Specific to this project
+# Uncomment the following line if you want to ignore the entire img directory
+# img/
