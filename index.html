@@ -9,16 +9,23 @@
 <body>
     <h1>Merge Fruit Game</h1>
     <p>Click on an empty cell to place the next fruit. Merge identical fruits to create bigger ones!</p>
+    
+    <!-- Game Container for all components -->
     <div id="game-container">
+        <!-- Next Fruit Display Section -->
         <div id="next-fruit-container">
             <h3>Next Fruit:</h3>
-            <div id="next-fruit"></div>
+            <div id="next-fruit"></div> <!-- This will be updated dynamically -->
         </div>
+        
+        <!-- Game Board Area -->
         <div id="game-area">
-            <div id="game-board"></div>
-            <button id="reset-btn">Restart Game</button>
-            <p>Score: <span id="score">0</span></p>
+            <div id="game-board"></div> <!-- The 7x7 grid for the game board -->
+            <button id="reset-btn">Restart Game</button> <!-- Reset button -->
+            <p>Score: <span id="score">0</span></p> <!-- Score display -->
         </div>
+        
+        <!-- Fruit Merging Legend -->
         <div id="legend">
             <h2>Fruit Merging Guide</h2>
             <div class="legend-item">
@@ -65,6 +72,8 @@
             </div>
         </div>
     </div>
+    
+    <!-- Link to the JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>

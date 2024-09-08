@@ -1,0 +1,27 @@
+{
+  "name": "mergefruit",
+  "version": "1.0.0",
+  "description": "Merge Fruit Game is a fun and interactive game where you merge identical fruits to create bigger ones! Click on an empty cell to place the next fruit. When two identical fruits are adjacent, they merge into the next tier fruit. The game continues until the grid is full.",
+  "main": "script.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marc1190/MergeFruit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marc1190/MergeFruit/issues"
+  },
+  "homepage": "https://github.com/Marc1190/MergeFruit#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

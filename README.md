@@ -17,7 +17,28 @@ To set up and run the game locally, follow these steps:
    cd MergeFruit
    ```
 
-2. Open the `index.html` file in your web browser.
+2. Install the required packages:
+   ```bash
+   npm install
+   ```
+
+3. Open the `index.html` file in your web browser to play the game.
+
+### Requirements
+- Ensure you have **Node.js** installed on your machine for running tests and managing dependencies. You can download it [here](https://nodejs.org/).
+
+## Testing
+To run the tests for the game:
+1. Install the dependencies if not already installed:
+   ```bash
+   npm install
+   ```
+   
+2. Run the tests using:
+   ```bash
+   npm test
+   ```
+   This will execute all unit tests for the game, including logic for fruit merging, gravity application, and score calculation.
 
 ## Files
 - `index.html`: The main HTML structure of the game.
@@ -32,7 +53,7 @@ To set up and run the game locally, follow these steps:
 5. Your score is continuously updated based on successful merges.
 
 ## Dependencies
-The game uses plain HTML, CSS, and JavaScript, so no additional libraries or frameworks are needed.
+The game requires **Node.js** for running tests and managing dependencies. It uses **Jest** for testing the game logic. Run `npm install` to install all necessary dependencies.
 
 ## Contribution
 Feel free to fork the repository and submit pull requests. We welcome contributions that improve the gameplay, add features, or fix bugs.
